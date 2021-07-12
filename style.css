@@ -47,7 +47,7 @@ p {
   margin: 1rem 0;
   line-height: 1.5rem;
 }
-h2,
+h1,
 h3 {
   margin: 0.3125rem 0;
   color: var(--blue-veryDark);
@@ -62,11 +62,11 @@ header {
   width: 80%;
   text-align: center;
 }
-header h2:first-child {
+header h1:first-child {
   color: var();
   font-weight: 300;
 }
-header h2:nth-last-child() {
+header h1:nth-last-child() {
   font-weight: 600;
 }
 @media screen and (min-width: 768px) {
